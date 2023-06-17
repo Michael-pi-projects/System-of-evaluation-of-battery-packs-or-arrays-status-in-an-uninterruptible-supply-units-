@@ -1,0 +1,29 @@
+# System-of-evaluation-of-battery-packs-or-arrays-status-in-an-uninterruptible-supply-units-
+System development of  evaluation of battery packs or battery arrays status in an uninterruptible  power supply units , a thesis priject and a prototype device
+
+The items used for this project are :
+1) Arduino Uno R3
+2) DC power suply 5.5x2.1 dc jack from 3 up to 12 volts output
+3) Ethernet shield v2
+4) Swimple voltage sensnor (measures up to 25 volts dc)
+5) LTS-25NP Current sensor
+6) DHT 22 TEMPERATURE/HUMIDITY SENSOR
+7) DS3231 RTC MODULE
+8) LM4040 VOLTAGE REFERENCE
+9) Raspberry pi 400
+10) PCB perforated plate 9x15 cm
+11) PCB cable terminal conectors
+12) Electrical box IP 55 and above 28x19x9.5 cm 
+13) Fuse cases 6x30 and 5x20
+14) Current glass fuses 0.4 Amps (5x20) and up until 10 Amps of 6x30 glass fuse 
+15) 1.5 mm2 for sensors and 0.22 mm cable for conecting the sensors
+16) ethernet,usb type b(male) to type b female rack extensions
+17) 1 female dcjack and 1 male 5.5x2.1
+18) PCB  female dc jack 5.5x2.1
+19) 1 switch (if needed)
+20) Cable glands
+21) Screws of 3mm and nuts
+
+And diferent tools like : 
+wire striper,pliers,solding iron,solder,solding miscellaneous,electrical drill,drils up to 2-3 cm diameter
+cutting knife,screwdrivers
