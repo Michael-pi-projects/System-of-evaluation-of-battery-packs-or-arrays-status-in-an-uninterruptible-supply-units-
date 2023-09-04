@@ -13,8 +13,8 @@ with open ("/home/pi/.local/share/.email_password", "r") as f :
     # from the path that we have seved the password
     password = f.read()
                         # reads the password from the saved file
-yag = yagmail.SMTP('diferentprojects@gmail.com', password)
-# the first parameter of the comand is the email so send what we want example :'diferentprojects@gmail.com'
+yag = yagmail.SMTP('example_email_1@gmail.com', password)
+# the first parameter of the comand is the email so send what we want example :'example_email_1@gmail.com'
 # the second parameter is the password variable with app pasword stored 
 
 
@@ -102,7 +102,7 @@ with open("/home/pi/Data/Data.csv", "a") as log:
                     # then we send an email with  the notification we want to send
                     # every time the the loop is runs ( example : every 2 seconds )
                     # usibg find ffunction
-                    yag.send(to='pissanosmixalis@gmail.com',
+                    yag.send(to='example_email_2@gmail.com',
                              # the email of receiver
                              subject ="Arduino sensor notification",
                              # title of the notification
@@ -116,7 +116,7 @@ with open("/home/pi/Data/Data.csv", "a") as log:
                     # then we send an email with  the notification we want to send
                     # every time the the loop is runs ( example : every 2 seconds )
                     # usibg find ffunction
-                    yag.send(to='pissanosmixalis@gmail.com',
+                    yag.send(to='example_email_2@gmail.com',
                              # the email of receiver
                              subject ="Arduino sensor notification",
                              # title of the notification
@@ -128,7 +128,7 @@ with open("/home/pi/Data/Data.csv", "a") as log:
                 print(line)
                 # it prints the line string variable
     except KeyboardInterrupt:
-         yag.send(to='pissanosmixalis@gmail.com',
+         yag.send(to='example_email_2@gmail.com',
                              # the email of receiver
                              #subject ="Arduino sensor notification",
                              # title of the notification
